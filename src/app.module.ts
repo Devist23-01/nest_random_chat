@@ -2,7 +2,6 @@ import { Module, NestModule } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
-import { ChatsGateway } from './chats/chats.gateway';
 import { ChatsModule } from './chats/chats.module';
 import * as Joi from 'joi';
 import * as mongoose from 'mongoose';
